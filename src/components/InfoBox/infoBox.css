@@ -1,0 +1,34 @@
+.infoBox {
+  flex: 1;
+  cursor: pointer;
+}
+.active {
+  border-top: 0.7rem solid greenyellow;
+}
+.cases {
+  border-color: #539287ed;
+  color: #539287ed;
+}
+.recovered {
+  border-color: greenyellow;
+  color: greenyellow;
+}
+.deaths {
+  border-color: #cc1034a6;
+  color: #cc1034a6;
+}
+.infoBox:not(:last-child) {
+  margin-right: 0.9rem;
+}
+
+.infoBoxCases {
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.infoBox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 1rem !important;
+}

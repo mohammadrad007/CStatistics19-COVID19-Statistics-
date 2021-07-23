@@ -1,0 +1,37 @@
+.headerContainer {
+  height: 20rem;
+  background-image: linear-gradient(to bottom right, #143356, #0f2741);
+  background-color: #0f2741;
+  position: relative;
+}
+.headerContent {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  margin-bottom: 3rem !important;
+}
+.headerContent > h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.homeBgWave {
+  display: block;
+  width: 100%;
+  position: absolute;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  /* border-bottom: 2px solid #fff; */
+  bottom: -3px;
+  right: 0;
+  height: 50px;
+}
+.homeBgWave__background {
+  fill: #f5f6fa;
+}
+.homeBgWave__wave {
+  fill: #ccc;
+}

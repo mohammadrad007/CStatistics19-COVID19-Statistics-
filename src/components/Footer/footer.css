@@ -1,0 +1,25 @@
+.footerContainer {
+  background-image: linear-gradient(to top, #091625, #274362);
+  background-color: #0f1c41f2;
+}
+.socialMedia {
+  width: 100%;
+}
+.socialMediaBox {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.socialMediaBox > li {
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+.footerContent {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+}

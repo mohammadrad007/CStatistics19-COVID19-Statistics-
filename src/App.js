@@ -1,7 +1,14 @@
+import Home from "./pages/Home";
+
+import "leaflet/dist/leaflet.css";
 import "./App.css";
 
 const App = () => {
-  return <div className="App">COVID 19</div>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 };
 
 export default App;

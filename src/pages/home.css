@@ -1,0 +1,34 @@
+.app {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.3rem;
+  margin: 2rem 0 !important;
+}
+.homeHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.3rem !important;
+}
+.homeHeader h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.homeHeader span {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.app__dropdown {
+  background-color: #fff;
+}
+.app__header > h1 {
+  color: #fc3c3c;
+  font-size: 2rem;
+}
+.homeStats {
+  display: flex;
+  justify-content: space-between;
+}
+.cardHome > h3 {
+  margin: 1rem 0;
+}
