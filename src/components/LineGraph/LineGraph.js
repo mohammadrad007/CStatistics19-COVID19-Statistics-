@@ -23,7 +23,6 @@ const LineGraph = ({ casesType = "cases" }) => {
       }
       lastDataPoint = data[casesType][date];
     }
-
     return chartData;
   };
 
