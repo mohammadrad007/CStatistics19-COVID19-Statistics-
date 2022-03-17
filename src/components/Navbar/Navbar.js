@@ -1,6 +1,7 @@
 import { Grid } from "@material-ui/core";
 
 import "./navbar.css";
+
 const Navbar = ({ logo }) => {
   return (
     <Grid container>
